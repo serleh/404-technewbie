@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    
+   
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+img{
+    width: 500px;
+}
+
+section div{
+    margin-left: 50px;
+}
+h1{
+    font-size: 30px;
+}
+h6{
+    display: inline;
+    background-color: #3d3636;
+    border: 3px solid #3d3636;
+    size: 40px;
+    padding: 10px;
+    color: #fff;
+ 
+}
+
+@media all and(max-width:500px){
+    main{
+        width: 100%;
+    }
+
+}
+
+
